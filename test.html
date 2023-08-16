@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+       table, td{
+                border: 1px solid;
+                padding: 5px;
+                }
+        table{
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;
+                border-collapse: separate;
+                border-style: double;
+                }
+        h2{
+            text-align: center;
+        }     
+    </style>
+    <table>
+    <tr>
+        <td colspan="2">
+    <h2>
+        Registraion Form
+    </h2>
+   </td>
+   </tr>    
+   <tr>
+            <form align="center">
+                <td>    
+                    <label>
+                        Student's name
+                    </label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+            <tr>
+            <td>
+                <label>Father's name</label>
+        </td>
+        <td>
+            <input  type="text"><br>
+        </td>
+    </tr>
+    <tr>
+    <td>
+            <label>Mother's name</label>
+        </td>
+        <td> 
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+    <td>
+            <label>Date of Birth</label>
+        </td>
+        <td>
+            <input id = "date"type ="date"/>
+        </td>
+    </tr>
+    <tr>
+    <td>
+            <label>Gender</label>
+        </td>
+        <td>
+            <label for="Male">Male</label>
+            <input type="checkbox" value="Male" title="Male">
+            <label for="Female">Female</label>
+            <input type="checkbox" value="Female" title="Female">
+        </td>
+    </tr>
+    <tr>
+    <td> 
+            <label>Email ID</label>
+        </td>
+        <td>
+            <input type="email">
+        </td>
+    </tr>
+    <tr>
+    <td>
+            <label>Mobile No.</label>
+        </td>
+        <td>
+            <input type="number">
+        </td>
+    </tr>
+    <tr>
+    <td>
+            <label>Address</label>
+       </td>
+        <td>
+            <textarea rows="4"></textarea>
+        </td>   
+    </tr>
+    <tr>
+    <td>
+        <label>State</label>
+    </td>
+    <td>
+        <input type="text">
+    </td>
+</tr>
+<tr>
+<td>
+    <label>City</label>
+    </td>
+    <td>
+        <input type="text">
+    </td>   
+        </tr>
+        <tr>
+            <td></td>
+        <td class="btn">
+        <button type="submit">Submit</button>
+        </td>
+        </tr>    
+    </form>
+    </table>
+
+</body>
+</html>
